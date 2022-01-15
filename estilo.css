@@ -28,7 +28,7 @@ main > section button{
     background-color: #313131;
     border: none;
     border-radius: 8px;
-    color: whitesmoke;
+    color: #f8f8f8;
     font-family: Courier;
     font-size: 12px;
     font-weight: 400;
@@ -39,5 +39,23 @@ main > section button{
     padding: 12px 28px;
 }
 
+#detalhes-container {
+    font-weight: bold;
+    list-style-type: none;
+    width: 90%;
+}
 
+#detalhes-container > li {
+    align-items: baseline;
+    display: flex;
+}
+
+#detalhes-container > li p {
+    color: white;
+
+}
+
+#button {
+    position: relative;
+}
 
