@@ -11,7 +11,7 @@ body{
 }
 
 main {
-    align-items: center;
+    align-items:flex-start;
     display: flex;
     height: 100vh;
     justify-content: center;
@@ -20,29 +20,24 @@ main {
 
 main > section img {
     height: 250px;
-    margin: 25px 20px;
+    margin: 15px 10px;
     width: 400px;
 }
 
 main > section button{
-    background-color: black;
+    background-color: #313131;
     border: none;
     border-radius: 8px;
     color: whitesmoke;
-    font-family: Courier New;
+    font-family: Courier;
     font-size: 12px;
     font-weight: 400;
-    letter-spacing: -0.19px;
-    line-height: 12px;
-    padding: 5px 15px;
+    letter-spacing: -0.20px;
+    line-height: 30px;
+    padding: 20px 5px;
     text-transform: uppercase;
+    padding: 12px 28px;
 }
 
-#containerA #containerB #containerC >li{
-float: left;  
-font-weight: bold;
-list-style-type: none;
-width: 30%;
-}
 
 
