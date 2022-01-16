@@ -1,5 +1,6 @@
 const imagem = document.querySelector('img');
 const botao = document.querySelector('button');
+const botaoSegundo = document.querySelector('button');
 const nomeDoPersonagem = document.querySelector('#primeiroNome');
 const especieDoPersonagem = document.querySelector('#primeiroEspecie');
 const statusDoPersonagem = document.querySelector('#primeiroCondicao');
@@ -24,8 +25,10 @@ return fetch(`https://rickandmortyapi.com/api/character/${numeroAleatorio}`, {
     especieDoPersonagem.innerHTML = data.species;''
     statusDoPersonagem.innerHTML = data.status;
 });
-
-
 }
+/*botao = pegarPersonagem
+botaoSegundo = pegarSegundoPersonagem
+
+onclick = (botao); (botaoSegundo);*/
 
 botao.onclick = pegarPersonagem;
